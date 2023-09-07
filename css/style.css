@@ -17,7 +17,16 @@ h1{
     padding-bottom: 40px;
     color: #e64470;
 }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 .box{
     border: 1px solid black;
     width: calc(100% / 3);
+    float: left;
 }
+/* .clearfix{
+    overflow: auto;
+} */
