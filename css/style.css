@@ -24,6 +24,9 @@ img{
     width: 100px;
     vertical-align: middle;
 }
+article{
+    background-color: #0f0e17;
+}
 .clearfix::after {
     content: "";
     clear: both;
