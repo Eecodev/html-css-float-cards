@@ -11,8 +11,13 @@
 }
 header{
     text-align: center;
+    padding-bottom: 30px;
 }
 h1{
     padding-bottom: 40px;
     color: #e64470;
+}
+.box{
+    border: 1px solid black;
+    width: calc(100% / 3);
 }
