@@ -17,6 +17,10 @@ h1{
     padding-bottom: 40px;
     color: #e64470;
 }
+img{
+    width: 120px;
+    vertical-align: middle;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -26,4 +30,13 @@ h1{
     border: 1px solid black;
     width: calc(100% / 3);
     float: left;
+}
+.debug{
+    float:left;
+    padding-right: 10px;
+}
+.team-member{
+    padding-top: 10px;
+    padding-right: 30px;
+    vertical-align: middle;
 }
