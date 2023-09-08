@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .wrapper{
-    border: 2px solid black;
+    border: 1px solid black;
     max-width: 1200px;
     margin: 0 auto;
     padding: 30px;
@@ -27,6 +27,9 @@ img{
 article{
     background-color: #0f0e17;
 }
+h3, #role{
+    color: white;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -36,6 +39,7 @@ article{
     border: 1px solid black;
     width: calc(100% / 3);
     float: left;
+ 
 }
 .debug{
     float:left;
@@ -49,3 +53,7 @@ article{
 #role{
     line-height: 2em;
 }
+.email{
+    color: #4eb7e3;
+}
+.email:
