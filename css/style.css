@@ -25,6 +25,8 @@
     padding: 10px;
 }
 .col{
-    float left;
     width: calc(100% / 3);
+}
+.pull-left{
+    float: left;
 }
