@@ -3,57 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-.wrapper{
+.debug{
     border: 1px solid black;
+}
+.container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 30px;
+    padding: 10px;
 }
-header{
-    text-align: center;
-    padding-bottom: 30px;
-}
-h1{
-    padding-bottom: 40px;
-    color: #e64470;
-}
-h3{
-    padding-bottom: 3px;
-}
-img{
-    width: 100px;
-    vertical-align: middle;
-}
-article{
-    background-color: #0f0e17;
-}
-h3, #role{
-    color: white;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-.box{
-    border: 1px solid black;
-    width: calc(100% / 3);
-    float: left;
- 
-}
-.debug{
-    float:left;
-    padding-right: 10px;
-}
-.team-member{
-    vertical-align: middle;
-    padding-top: 10px;
-    padding-right: 30px;
-}
-#role{
-    line-height: 2em;
-}
-.email{
-    color: #4eb7e3;
-}
-.email:
