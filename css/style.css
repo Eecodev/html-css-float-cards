@@ -1,3 +1,11 @@
+/* general */
+:root{
+    --color-light: #ffffff;
+    --color-dark: #0f0e17;
+    --color-primary: #e64470; 
+    --color-secondary: #59bbd5;
+}
+
 *{
     margin: 0;
     padding: 0;
