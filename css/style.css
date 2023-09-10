@@ -26,6 +26,7 @@
 }
 .col{
     width: calc(100% / 3);
+    padding: 20px 15px;
 }
 .pull-left{
     float: left;
